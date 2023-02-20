@@ -1,5 +1,5 @@
 <!-- 
-Galeria em PHP
+Agio-Bank em PHP
  Autores: Joanna Ribeiro Cruz; João Felipe Silva Pereira
  Docente: Matheus Brito de Oliveira
  Disciplina: Desenvolvimento WEB II
