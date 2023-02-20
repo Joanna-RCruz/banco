@@ -1,0 +1,127 @@
+h1{
+    color: #ffff78;
+    margin: 0px;
+    margin-left: 25px;
+    padding-bottom: 5px;
+    font-family: "IBM Plex Mono", "Courier New", monospace;
+    font-weight: 200;
+}
+
+td{
+    font-family: "Tahoma";
+}
+
+.button{
+    padding: 5px;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.button:hover{
+    background-color: #fafafa;
+    border: 1px solid #2c3aa0;
+}
+
+.close-button{
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    background-color: white;
+    padding: 5px;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+}
+
+.close-button:hover {
+    background-color: #fafafa;
+    border: 1px solid red;
+}
+
+.table-contas-item{
+    padding: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 11pt;
+}
+
+.table-contas{
+    min-width: 622px;
+    width: 70%;
+    position: absolute;
+    border: 1px solid lightgray; 
+    border-radius: 5px;
+    top: 100px;
+    left: 50%;
+    transform: translate(-50%, 0px);
+}
+
+.window{
+    width: 40%;
+    min-width: 500px;
+    position: absolute;
+    border: 1px solid lightgray; 
+    background-color: white;
+    box-shadow: 0px 0px 18px lightgray;
+    z-index: 1;
+    border-radius: 10px;
+    padding: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.window>h1{
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+    color: black;
+    text-align: center;
+}
+
+.window>form>input{
+    width: 100%;
+    border: 1px solid gray; 
+    border-radius: 5px;
+}
+
+.window>form>p{
+    margin-left: 15px;
+}
+
+.footer{
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
+}
+
+.footer-text{
+    font-family: "IBM Plex Mono", "Courier New", monospace;
+    font-weight: 200;
+    font-size: 11pt;
+    margin: 0px;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltip-text {
+    visibility: hidden;
+    width: 120px;
+    top: 110%;
+    left: 50%;
+    margin-left: -60px;
+    background-color: white;
+    color: #777;
+    text-align: center;
+    padding: 5px 0;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltip-text {
+    visibility: visible;
+}
